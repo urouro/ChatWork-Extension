@@ -1,15 +1,17 @@
 {
   "manifest_version": 2,
   "name": "ChatWork Extension",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "content_scripts": [
     {
       "matches": [
         "https://www.chatwork.com/"
       ],
       "js": [
+        "lib/clipboard.min.js",
         "main.js"
       ]
     }
-  ]
+  ],
+  "minimum_chrome_version": "42"
 }

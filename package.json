@@ -1,0 +1,22 @@
+{
+  "name": "chatwork-extension",
+  "version": "0.0.1",
+  "description": "Google Chrome extension for ChatWork",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urouro/ChatWork-Extension.git"
+  },
+  "author": "kenta nakai <kenta.nakai@urouro.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/urouro/ChatWork-Extension/issues"
+  },
+  "homepage": "https://github.com/urouro/ChatWork-Extension#readme",
+  "dependencies": {
+    "viewerjs": "^0.3.1"
+  }
+}

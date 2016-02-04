@@ -9,7 +9,11 @@
       ],
       "js": [
         "lib/clipboard.min.js",
+        "node_modules/viewerjs/dist/viewer.js",
         "main.js"
+      ],
+      "css": [
+        "node_modules/viewerjs/dist/viewer.css"
       ]
     }
   ],
